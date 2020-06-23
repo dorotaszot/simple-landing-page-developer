@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple landing page: Developer</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="main-header" id="to-top">
+    <h1>FRONT END DEVELOPER</h1>
+    <hr>
+    <p>HTML<span class="dot">•</span>CSS<span class="dot">•</span>JavaScript</p>
+    <a href="#about" class="btn" id="find-out-more">FIND OUT MORE</a>
+  </header>
+
+  <nav class="nav-bar">
+    <ul class="nav-container">
+      <li><a href="#about" id='about-button'>About</a></li>
+      <li><a href="#portfolio" id='portfolio-button'>Portfolio</a></li>
+      <li><a href="#contact" id='contact-button'>Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="container">
+      <header class="section-header">
+        <h2>About Me</h2>
+        <hr>
+      </header>
+      <img src="./img/about.jpg" alt="" class="about-img">
+      <div class="container-small">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolor veniam rem esse doloribus nulla non
+          repellat adipisci illo, laboriosam, amet dolores. Incidunt distinctio sunt, esse cum recusandae quos
+          dignissimos
+          ut, nobis, et assumenda officiis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolor veniam rem esse doloribus nulla non
+          repellat adipisci illo, laboriosam, amet dolores. Incidunt distinctio sunt, esse cum recusandae quos
+          dignissimos
+          ut, nobis, et assumenda officiis.</p>
+      </div>
+      <a href="#portfolio" id="my-portfolio-button" class="btn">MY PORTFOLIO</a>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <header class="section-header">
+        <h2>PORTFOLIO</h2>
+        <hr>
+      </header>
+      <div class="portfolio-imgs-container">
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-1.jpg" alt="1">
+          <h3>Project 1</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-2.jpg" alt="2">
+          <h3>Project 2</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-3.jpg" alt="3">
+          <h3>Project 3</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-4.jpg" alt="4">
+          <h3>Project 4</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-5.jpg" alt="5">
+          <h3>Project 5</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-6.jpg" alt="6">
+          <h3>Project 6</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-7.jpg" alt="7">
+          <h3>Project 7</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-8.jpg" alt="8">
+          <h3>Project 8</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-9.jpg" alt="9">
+          <h3>Project 9</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-10.jpg" alt="10">
+          <h3>Project 10</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-11.jpg" alt="11">
+          <h3>Project 11</h3>
+        </a>
+        <a href="" class="portfolio-item"><img src="./img/portfolio/photo-12.jpg" alt="12">
+          <h3>Project 12</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <header class="section-header">
+        <h2>Contact</h2>
+        <hr>
+      </header>
+      <div class="container-small">
+        <form action="#" class="container-input">
+          <input class="contact-input" type="text" id="name" name="name" placeholder="Name">
+          <input class="contact-input" type="email" name="email" placeholder="Email">
+          <textarea class="contact-textarea" name="message" id="message" placeholder="Message"></textarea>
+          <button type="submit" class="btn btn-send">SEND MESSAGE</button>
+        </form>
+      </div>
+      <div class="social-media container-small">
+        <a href="https://facebook.com"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter fa-3x"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="https://youtube.com"><i class="fab fa-youtube fa-3x"></i></a>
+      </div>
+      <a href="#to-top" class="to-top"><i class="fas fa-arrow-up fa-1.5x"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; Akademia 108 - Szkoła Programowania</p>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a47e3e9825.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
