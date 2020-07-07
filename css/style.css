@@ -346,6 +346,19 @@ footer {
   .nav-container {
     flex-direction: column;
   }
+
+  ul.nav-container li {
+    padding: 5px;
+  }
+
+  ul.nav-container li a {
+    padding: 5px;
+  }
+
+  ul.nav-container li a:hover {
+    padding: 5px;
+  }
+
   .container-input input{
     flex-basis: 100%;
   }
