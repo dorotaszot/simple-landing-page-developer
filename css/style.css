@@ -167,7 +167,7 @@ ul.nav-container li {
 }
 
 .portfolio-imgs-container .portfolio-item {
-  flex-basis: 33%;
+  flex-basis: 25%;
   height: 200px;
   position: relative;
 }
@@ -188,7 +188,7 @@ ul.nav-container li {
   margin: 0;
   text-align: center;
   line-height: 200px;
-  font-size: 3em;
+  font-size: 2em;
   color: #fff;
   font-weight: 300;
   opacity: 0;
